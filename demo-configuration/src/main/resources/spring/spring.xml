@@ -16,7 +16,7 @@
 
 
 
-    <bean id="customerRepository" class="com.mogujie.myproject.domain.CustomerRepository">
+    <bean id="customerRepository" class="com.demo.myproject.domain.CustomerRepository">
   </bean>
 
 
