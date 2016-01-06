@@ -1,0 +1,3 @@
+spring-boot.version=${spring-boot.version}
+
+日志信息
