@@ -13,6 +13,9 @@ public class ApplicationEnvironmentPreparedEventDemo  implements ApplicationList
 
     @Override
     public void onApplicationEvent(ApplicationEnvironmentPreparedEvent event) {
+
         System.out.println("初始化context之前Environment之后加载:"+event.getEnvironment().getProperty("domain"));
+
+
     }
 }

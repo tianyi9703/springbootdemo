@@ -42,7 +42,11 @@ public class CustomerController {
 
 
     }
-
-
-
+    @RequestMapping("/web")
+    public String welcome(Map<String, Object> model) {
+        model.put("time", new Date());
+        model.put("message", "hello");
+        System.out.println("after filter");
+        return "welcome";
+    }
 }

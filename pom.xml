@@ -14,6 +14,11 @@
         <module>demo-configuration</module>
         <module>demo-eventslisteners</module>
         <module>demo-config</module>
+        <module>demo-logging</module>
+        <module>demo-web</module>
+        <module>demo-security</module>
+        <module>demo-aop</module>
+        <module>demo-jdbc</module>
     </modules>
 
     <parent>
